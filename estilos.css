@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fffaaf;
+    padding: 2%;
+}
+
+.cuerpo {
+    padding: 2%;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; /* stretch estira el eje secundario (horizontal en este caso) hasta el final.*/
+
+}
+
+.cuerpo div {
+    padding: .5% 1%;
+}
+
+div form {
+    margin: 0 3%;
+}
+
+.cuerpo div {
+    background-color: #fff;
+    margin-bottom: 2%;
+}
+
+.btn {
+    padding: .2%;
+    border-radius: 6%;
+    border: 1px solid black;
+    background-color: #fff666;
+}
+
+#segundcaca, #resultados {
+    margin-top: 3%;
+    padding: 2%;
+    align-self: center;
+    background-color: #fff;
+    display: none;
+}
+
+#resultados {
+    
+}
