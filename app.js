@@ -101,7 +101,7 @@ function mostrarResultados(cantCorrectas) {
         case 8:
         case 9: 
         case 10:
-            divResultados.innerHTML = `<h4 class="h4">Muy bien!!! Acertaste ` + cantCorrectas +`/10 preguntas .</h4>
+            divResultados.innerHTML = `<h4 class="h4">Muy bien!!! Acertaste ` + cantCorrectas +`/10 preguntas. Sos todo lo que un novio podría desear!!</h4>
             `
             divResultados.style.backgroundColor="lightgreen";
             break;
